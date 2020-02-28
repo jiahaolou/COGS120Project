@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIY</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/home_style.css" rel="stylesheet">
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="/css/bootstrap-theme.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+	    <script src="/js/input.js"></script>
+    </head>
+
+<body>
+    <!--Header-->
+    <header class="container bar" id="topbar">
+        <h1 class="text-center">The Meal Preppers</h1>
+    </header>
+    <hr>
+    <div class="container">
+        <!--back button + heading-->
+        <div class="row">
+            <a href="index"><div class="col-xs-6" style="width: 25%">
+                <img class="thumbnail" src="images/back.svg" style="width:80%">
+            </div></a>
+            <div class="col-xs-6">    
+                <h1 class="text-center">DIY</h1>       
+            </div>
+        </div> 
+        <!--DIY screen--> 
+        <hr>
+        <div class="container">
+            <h4>How much time do you have to cook?</h4>
+            <br>
+            <!--
+            <input type="text" class="form-control" id="time" placeholder="minutes">
+            -->
+            <label for="sel1">Time:</label>
+            <select class="form-control" id="time">
+                <option>Please select time</option>
+                <option>0 - 20 minutes</option>
+                <option>20 - 40 minutes</option>
+                <option>40 minutes and above</option>
+            </select>
+        </div>
+        <hr>
+        <div class="container">
+            <h4>What is your planned calorie intake for this meal?</h4>
+            <br>
+            <!--
+            <input type="text" class="form-control" id="calorie" placeholder="calories">
+            -->
+            <label for="sel1">Calories:</label>
+            <select class="form-control" id="calories">
+                <option>Please select calorie goal</option>
+                <option>0 - 499 Calories</option>
+                <option>500 - 999 Calories</option>
+                <option>1000 Calories and above</option>
+            </select>
+        </div>
+        
+        <!--
+        <div class="container">
+            <h4>What ingredients do you have?</h4>
+            <h5>Protein:</h5>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Meat</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Poultry</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="">Plant Protein</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="">Seafood</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="">None</label>
+            </div>
+            <h5>Carbs:</h5>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Rice</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Pasta</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="">Tortilla</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="">Potato</label>
+            </div>
+            <div class="checkbox disabled">
+                <label><input type="checkbox" value="">None</label>
+            </div>
+        </div>
+        -->
+        <br>
+
+        <!--Next Button-->
+        <a href="#"><div class="container" style="text-align:center;">
+            <button type="button" class="btn" style="width:40%" id="submitdiy">Next</button>
+        </div></a>
+    </div>
+    <hr>
+    
+
+    <!--Footer icons-->
+    <footer class="container bar" id="fixedfooter">
+            <div class="row">
+                <a href="index"><div class="col-xs-6" style="width:50%">
+                    <img class="footer-icon" src="images/home.svg" style="width:100%">
+                </div></a>
+                <a href="favorite"><div class="col-xs-6" style="width:50%">
+                    <img class="footer-icon" src="images/heart.svg" style="width:100%">
+                </div></a>
+            </div>
+    </footer>
+
+</body>
+</html>

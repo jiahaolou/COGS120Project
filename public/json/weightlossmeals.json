@@ -1,0 +1,53 @@
+[
+	{
+		"id": 1,
+		"Title": "Chicken with Ginger Pesto",
+		"Time": 15,
+		"Calories": 201,
+		"Protein": 22.6,
+		"Ingredients":"2 pounds skinless, boneless chicken breast halves, ½ cup dry white wine, ¼ cup vegetable oil, 2 tablespoons grated fresh ginger root, 2 cloves garlic, minced, 1 tablespoon salt, 1 teaspoon white sugar, 1 bunch green onions, cut into 1/4-inch pieces",
+		"Summary": "STEP 1: Pour the white wine into a saucepan of lightly salted water, and place the chicken breasts into the pan. Bring the pan to a boil, reduce the heat, and simmer the chicken until cooked through and white, 8 to 10 minutes. Remove from the heat, and let the chicken cool in the broth. Remove from the broth, and set the chicken aside. STEP 2: Heat the vegetable oil in a skillet over medium-low heat, and stir in the ginger, garlic, salt, and sugar. Reduce heat to low, and cook, stirring occasionally, until the garlic is browned and soft, and the oil is flavored, about 20 minutes. Stir in the green onions, and cook for another 10 minutes, stirring occasionally, until the white parts of the onions are soft. STEP 3: Slice the poached chicken breasts on the bias into slices about 1 inch wide, and arrange attractively on a plate. Spoon the green onion mixture over the chicken breasts, and serve.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F718232.jpg&w=596&h=596&c=sc&poi=face&q=85"
+
+	},
+	{
+		"id": 2,
+		"Title": "Basic Scrambled Eggs",
+		"Time": 5,
+		"Calories": 392,
+		"Protein": 14,
+		"Ingredients":"4 Large Eggs, 1 1/4 Cup Milk, Pinch Salt, Pinch Pepper, 2tsp Butter",
+		"Summary": "BEAT eggs, milk, salt and pepper in medium bowl until blended. HEAT butter in large nonstick skillet over medium heat until hot. POUR in egg mixture. As eggs begin to set, gently PULL the eggs across the pan with a spatula, forming large soft curds. CONTINUE cooking—pulling, lifting and folding eggs—until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. SERVE immediately.",
+		"Image": "https://x9wsr1khhgk5pxnq1f1r8kye-wpengine.netdna-ssl.com/wp-content/uploads/Scrambled-with-Milk-930x620.jpg"
+	},
+	{
+		"id": 3,
+		"Title": "Kadai Chicken",
+		"Time": 35,
+		"Calories": 339,
+		"Protein": 29.3,
+		"Ingredients":"5 teaspoons vegetable oil, 7 dried red chile peppers, finely chopped , 5 tomatoes, finely chopped, 4 boneless chicken breasts, cut into bite-size pieces",
+		"Summary": "Heat oil in a large skillet over medium heat. Add chile peppers; cook and stir until browned, about 1 minute. Add tomatoes; cook and stir until softened and reduced, about 7 minutes. Stir in chicken; cook and stir until it is dark red and sauce thickens and starts to stick to the pan, 10 to 15 minutes.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3531190.jpg&w=596&h=596&c=sc&poi=face&q=85"
+	},
+	{
+		"id": 4,
+		"Title": "15 Minute Chicken Pasta",
+		"Time": 15,
+		"Calories": 400,
+		"Protein": 25,
+		"Ingredients":"2 chicken breasts cut in strips, 1 tablespoon olive oil, 1/2 medium yellow onion chopped, 1/2 bell pepper chopped, 3 cloves of garlic minced, 1/2 teaspoon EACH salt, pepper, & garlic powder, 1 cup marinara sauce, 1/2 cup mozzarella or Italian blend cheese, 1/4 cup Parmesan cheese optional, 1.5 cups dry pasta",
+		"Summary": "STEP 1: In a medium saucepan, bring 2 cups of salted water to boil, pour 1.5 cups of uncooked pasta and 1 tsp salt into the water. Cover and allow to cook for 10 minutes. STEP 2: While the pasta is cooking, cut chicken breasts and, onion and bell peppers. Heat 1 tablespoon oil in a heavy-duty pan or pot over medium-high heat. Add the onion and bell pepper and saute for 1-2 minutes or until softened. Add the garlic and sautee 30 seconds or until lightly golden. Add the chicken, salt, pepper, & garlic powder and saute until the chicken is browned and almost cooked through. STEP 3: Add the marinara sauce and allow to simmer for 5 minutes while the pan is covered. After 5 minutes, drain the water from the pasta and pour pasta on the chicken mixture. Mix well, add the cheese and turn off. The cheese will melt from the heat of the pan. If desired, broil the cheese under the broiler in the oven until bubbly. STEP 4: Top with Parmesan and enjoy!",
+		"Image": "https://i2.wp.com/gimmedelicious.com/wp-content/uploads/2019/12/15-Minute-Chicken-Pasta-3.jpg"
+	},
+	{
+		"id": 5,
+		"Title": "Roasted Salmon with Kale-Quinoa Salad",
+		"Time": 15,
+		"Calories": 453,
+		"Protein": 43,
+		"Ingredients":"1 (6-oz.) wild salmon fillet, Cooking spray, 1 teaspoon olive oil, 1/8 teaspoon salt, 1/8 teaspoon freshly ground black pepper, 1 1/2 cups thinly sliced lacinato kale, 1/2 cup cooked quinoa, 1 tablespoon All-Purpose Citrus Dressing",
+		"Summary": "STEP 1: Preheat oven to 425°F. STEP 2: Place salmon on a foil-lined baking sheet coated with cooking spray. Rub evenly with oil, salt, and pepper. Bake at 425°F for 10 minutes or until fish flakes easily when tested with a fork. STEP 3: While fish cooks, combine kale, quinoa, All-Purpose Citrus Dressing, and grapes in a bowl; toss to combine. Let stand 5 minutes. Top with salmon.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Froasted-salmon-kale-quinoa-salad.jpg"
+	}
+]

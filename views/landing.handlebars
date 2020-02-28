@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Meal Preppers</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/home_style.css" rel="stylesheet">
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="/css/bootstrap-theme.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/login.js"></script>
+        {{> facebook}}
+        <script src="/js/facebook.js"></script>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="container bar" id="topbar">
+            <h1 class="text-center">The Meal Preppers</h1>
+        </header>
+
+        <!--Login-->
+        <div class="container">
+        <section class="form">
+            <h3 class="text-center">Welcome!</h3>
+            <h5 class="text-center">Please Login First</h5>
+            <p class="valid">Valid. Please wait a moment.</p>
+            <p class="error">Error. Please enter correct Username &amp; password.</p>
+            <form class="loginbox" autocomplete="off">
+                <input class="form-control" placeholder="Username" type="text" id="username"></input>
+                <br>
+                <input class="form-control" placeholder="Password" type="password" id="password"></input>
+                <br>
+                <button type="button" class="form-control" style="background-color:dodgerblue" id="submit">Login</button>
+                <br>
+                <p>Or Login through Facebook to use: </p>
+				<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+				</fb:login-button>
+            </form>
+        </section>
+        </div>
+
+        <!--Footer icons-->
+        <footer class="container bar" id="fixedfooter">
+            <div class="row">
+                <a href="index"><div class="col-xs-6" style="width:50%">
+                    <img class="footer-icon" src="images/home.svg" style="width:100%">
+                </div></a>
+                <a href="favorite"><div class="col-xs-6" style="width:50%">
+                    <img class="footer-icon" src="images/heart.svg" style="width:100%">
+                </div></a>
+        </div>
+        </footer>
+    </body>
+</html>

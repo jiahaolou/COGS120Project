@@ -1,0 +1,39 @@
+.bar {
+    background-color: DodgerBlue;
+}
+
+#topbar {
+    width: 100%
+}
+
+.footer-icon {
+    height: 70px;
+}
+
+#fixedfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*.footer-icon {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;;
+    width: 40%;
+}*/
+
+.form {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    background: #ffffff;
+    width: 320px;
+    height: 355px;
+    margin: -140px 0 0 -182px;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.error, .valid {
+    display: none;
+}

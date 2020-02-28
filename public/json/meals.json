@@ -1,0 +1,52 @@
+[
+	{
+		"id": 1,
+		"Title": "Workout Eggs",
+		"Time": 5,
+		"Calories": 392,
+		"Protein": 14,
+		"Ingredients":"4 Large Eggs, 1 1/4 Cup Milk, Pinch Salt, Pinch Pepper, 2tsp Butter",
+		"Summary": "BEAT eggs, milk, salt and pepper in medium bowl until blended. HEAT butter in large nonstick skillet over medium heat until hot. POUR in egg mixture. As eggs begin to set, gently PULL the eggs across the pan with a spatula, forming large soft curds. CONTINUE cooking—pulling, lifting and folding eggs—until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. SERVE immediately.",
+		"Image": "https://x9wsr1khhgk5pxnq1f1r8kye-wpengine.netdna-ssl.com/wp-content/uploads/Scrambled-with-Milk-930x620.jpg"
+	},
+	{
+		"id": 2,
+		"Title": "Beef Pepper Steak",
+		"Time": 20,
+		"Calories": 350,
+		"Protein": 35,
+		"Ingredients":"3 large bell peppers, 1 lb beef flank, 1 tablespoon avocado oil, 1 tablespoon garlic, fresh 1/2 cup onion",
+		"Summary": "Mix together the ingredients for the sauce, and set aside. Set a skillet on HIGH heat.  Once hot, lightly spray with avocado oil, then add bell peppers.  Allow them to rest in the skillet (without agitating) for 1 minute or until the outside becomes seared and begins to blister.  Then stir for 1 additional minute and remove from the skillet. Place the skillet back on HIGH heat, then add the beef.  All it to rest in the skillet until 1 side begins to sear, then begin stirring for 1 additional minute and remove from the skillet. Reduce the heat of the skillet to medium high.  Once the skillet has cooled down, add the avocado oil, garlic and onions.  Caramelize until the onions turn brown and translucent, about 2 minutes.  Then add  both the beef and peppers back to the skillet.  Mix together for 1 minute. Make a hole in the skillet.  Pour in the sauce.  As soon  as it starts to bubble and turn shiny, remove from the skillet from the heat and STIR QUICKLY so the sauce doesn’t clump or become slimy. Mix and fold everything. Garnish with sesame seeds and enjoy!",
+		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/beef-pepper-steak-2.jpg"
+	},
+	{
+		"id": 3,
+		"Title": "Caribbean Rice And Beans With Shrimp",
+		"Time": 35,
+		"Calories": 404,
+		"Protein": 30,
+		"Ingredients": "spray avocado oil, 1 1/2lb raw jumbo shrimp, 1 tablespoon jerk seasoning (OR spicy rub seasoning with low sodium), 1 cup Rice",
+		"Summary": "Set a skillet on medium-high heat, and once hot, add the shrimp.  As it sears and cooks in the skillet, sprinkle in blackened seasoning.  Cook for 6 to 8 minutes or until the edges are seared and the shrimp is cooked through.  Then remove the shrimp from the skillet. Reduce the heat to medium, then add oil, onions and garlic.  Saute for 3 to 5 minutes until the onions turn brown and translucent. Add the rice and mix to ensure every grain has been covered in oil and onion. Pour in the chicken stock, coconut milk and red beans.  Add pinches of sea salt & pepper, then stir and bring to a light simmer.  Add the bay leaves, then cover and cook for 15 to 20 minutes, or until all the liquid has been absorbed. Lower the heat to low, remove the bay leaves and fold in the cooked shrimp.",
+		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/caribbean-rice-beans-shrimp-3.jpg"
+	},
+	{
+		"id": 4,
+		"Title": "Smoked Salmon Brown Rice Bowl",
+		"Time": 10,
+		"Calories": 532,
+		"Protein": 40,
+		"Ingredients": "3oz wild smoked salmon, 1 egg, soft boiled, 1/4 medium ripe avocado, slices, 1 serving brown rice with edamame, Garnish: 1 teaspoon sesame seeds (optional), cilantro or fresh green onion,lime",
+		"Summary": "Boil an egg for 6 to 8 minutes for a soft-boiled egg.  Note: you can boil longer if you do NOT want the yolk to be soft.  Immediately place the eggs in ice water to stop it from cooking. Add all of the ingredients to a bowl.",
+		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/DSC06516-5.jpg"
+	},
+	{
+		"id": 5,
+		"Title": "Yogurt Chicken Kebabs",
+		"Time": 120,
+		"Calories": 238,
+		"Protein": 36,
+		"Ingredients": "1 1/4 lb chicken breast, cut into 1-inch chunks. Marinade: 3/4 cup plain yogurt (I used YQ plain), 2 teaspoons lemon zest, juice from 1 lemon, 1 teaspoon smoked paprika, 1/2 teaspoon cayenne, 1/2 teaspoon turmeric (optional), 2 tablespoons olive oil, 1 tablespoon minced garlic",
+		"Summary": "Mix together the ingredients for a marinade in a bowl.  Place the chicken breast in a sealable plastic bag then pour in the marinade.  Squeeze out all the air from the bag and seal it closed.  Mix and mash the bag to completely cover every piece of chicken. Marinate in the fridge for at least 1 hour but for best results, marinate overnight. After marinating, assemble the kabobs.  Set oven to 420F.  Evenly divide the kabob pieces into 5 separate wooden skewers. Discard the leftover marinade from the chicken. Place the kabobs on a baking rack or baking sheet lined with parchment paper. Bake in the oven for 15 to 18 minutes, until the outside edges are brown and the chicken is cooked through. Garnish with fresh cilantro or chives and enjoy with your choice of side for meal prep.  I suggest a fragrant jasmine or basmati rice and steamed veggies.",
+		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/yoplait-yogurt-recipes-6.jpg"
+	}
+]
