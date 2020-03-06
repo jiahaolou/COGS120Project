@@ -56,7 +56,7 @@ app.get('/diy1meal/:id', diy1meal.diy1mealInfo);
 app.get('/', landing.view);
 app.get('/favorite', favorite.view);
 app.get('/diy', diy.view);
-app.get('/diyAlt', diyAlt.view);
+app.get('/diyAlt', diy.viewAlt);
 app.get('/diy1', diy1.view);
 
 //app.get('/login', login.view)

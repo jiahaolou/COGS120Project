@@ -9,15 +9,7 @@
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/bootstrap.min.js"></script>
 	    <script src="/js/input.js"></script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-159828725-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+        
     </head>
 
 <body>
@@ -38,12 +30,52 @@
         </div> 
         <!--DIY screen--> 
         <hr>
+
+        {{#if viewAlt}}
+            <div class="container">
+                <h4>How much time do you have to cook?</h4>
+                <br>
+                <input type="text" class="form-control" id="time" placeholder="minutes">
+            </div>
+            <hr>
+            <div class="container">
+                <h4>What is your planned calorie intake for this meal?</h4>
+                <br>
+                <input type="text" class="form-control" id="calories" placeholder="calories">
+            </div>
+            <br>
+        {{else}}
+            <div class="container">
+                <h4>How much time do you have to cook?</h4>
+                <br>  
+                <label for="sel1">Time:</label>
+                <select class="form-control" id="time">
+                    <option>Please select time</option>
+                    <option>0 - 20 minutes</option>
+                    <option>20 - 40 minutes</option>
+                    <option>40 minutes and above</option>
+                </select>
+            </div>
+            <hr>
+            <div class="container">
+                <h4>What is your planned calorie intake for this meal?</h4>
+                <br>         
+                <label for="sel1">Calories:</label>
+                <select class="form-control" id="calories">
+                    <option>Please select calorie goal</option>
+                    <option>0 - 499 Calories</option>
+                    <option>500 - 999 Calories</option>
+                    <option>1000 Calories and above</option>
+                </select>
+            </div>
+        {{/if}}
+        <!--
         <div class="container">
             <h4>How much time do you have to cook?</h4>
             <br>
-            <!--
-            <input type="text" class="form-control" id="time" placeholder="minutes">
-            -->
+            
+            //<input type="text" class="form-control" id="time" placeholder="minutes">
+            
             <label for="sel1">Time:</label>
             <select class="form-control" id="time">
                 <option>Please select time</option>
@@ -56,9 +88,9 @@
         <div class="container">
             <h4>What is your planned calorie intake for this meal?</h4>
             <br>
-            <!--
-            <input type="text" class="form-control" id="calorie" placeholder="calories">
-            -->
+            
+            //<input type="text" class="form-control" id="calorie" placeholder="calories">
+            
             <label for="sel1">Calories:</label>
             <select class="form-control" id="calories">
                 <option>Please select calorie goal</option>
@@ -67,6 +99,8 @@
                 <option>1000 Calories and above</option>
             </select>
         </div>
+        -->
+       
         
         <!--
         <div class="container">
