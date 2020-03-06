@@ -16,7 +16,6 @@ var diy1meal = require('./routes/diy1meal');
 var landing = require('./routes/landing');
 var favorite = require('./routes/favorite');
 var diy = require('./routes/diy');
-var diyAlt = require('./routes/diyAlt');
 var diy1 = require('./routes/diy1');
 
 //var login = require('./routes/login');
