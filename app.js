@@ -61,7 +61,6 @@ app.get('/diy1', diy1.view);
 
 //app.get('/login', login.view)
 app.get('/workout', workout.view)
-
 app.get('/weightloss', weightloss.view)
 // Example route
 // app.get('/users', user.list);
