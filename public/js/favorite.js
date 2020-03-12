@@ -28,6 +28,7 @@ function removeFavorite() {
 	var buttonID = $(this).attr("id");
 	var mealID = buttonID.substr('button-'.length);
 
+	localStorage.removeItem("favorite-"+mealID);
 	$("#favorite-"+mealID).css("display", "none");
 
 
