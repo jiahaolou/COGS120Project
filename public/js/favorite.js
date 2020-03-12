@@ -4,8 +4,9 @@
 $(document).ready(function() {
 	initializePage();
 	var i;
-	for (i = 0; i < 6; i++) {
+	for (i = 0; i < 15; i++) {
 		var elemStyle = localStorage.getItem("favorite-"+i);
+		console.log(elemStyle);
 		if (elemStyle == null) {	
 	  		$("#favorite-"+i).css("display", "none");
 	  	} else {
