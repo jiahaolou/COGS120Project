@@ -3,6 +3,16 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
+	var i;
+	for (i = 0; i < 6; i++) {
+		var elemStyle = localStorage.getItem("favorite-"+i);
+		if (elemStyle == null) {	
+	  		$("#favorite-"+i).css("display", "none");
+	  	} else {
+			$("#favorite-"+i).css("display", elemStyle);
+	  	}
+	}
+	console.log("ready!");
 })
 
 /*
@@ -12,7 +22,6 @@ function initializePage() {
 	$('.meal a').click(addRecipeDetails);
 	$(":button").click(addFavorite);
 
-	// $('#colorBtn').click(randomizeColors);
 }
 
 function addFavorite(e) {
@@ -24,10 +33,10 @@ function addFavorite(e) {
 	console.log("favorite-btn clicked!")
 	console.log("id = " + mealID)
 
-	localStorage.setItem("favorite-"+mealID, "block");
-
+	$("#favorite-"+mealID).css(display, "block");
 
 }
+
 
 /*
  * Make an AJAX call to retrieve meal details and add it in
@@ -41,7 +50,7 @@ function addRecipeDetails(e) {
 	// get rid of 'project' from the front of the id 'project3'
 	// var idNumber = mealID.substr('meal'.length);
 
-	$.get("/meal/" + mealID, callBackFn);
+	$.get("/favoritemeal/" + mealID, callBackFn);
 
     console.log("User clicked on recipe " + mealID);
 }

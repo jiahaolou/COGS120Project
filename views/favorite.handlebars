@@ -18,17 +18,10 @@
     </header>
     <hr>
     <div class="container">
-        <!--back button + heading-->
-        <div class="row">
-            <a href="index"><div class="col-xs-6" style="width: 25%">
-                <img class="thumbnail" src="images/back.svg" style="width:80%">
-            </div></a>
-            <div class="col-xs-6">    
-                <h3 class="text-center">Favorites😍</h3>
-            </div>
-        </div>
+        <!--heading-->
+        <h3 class="text-center">Favorites ❤️</h3>
         <hr>
-        <hr>
+        <br>
         {{#each favorites}}
         <div class="meal" id="favorite-{{id}}" style="display: none">
             <div class="thumbnail">
@@ -51,10 +44,13 @@
     <!--Footer icons-->
     <footer class="container bar" id="fixedfooter">
             <div class="row">
-                <a href="index"><div class="col-xs-6" style="width:50%">
+                <a href="index"><div class="col-xs-6" style="width:33%">
+                    <img class="footer-icon" src="images/back.svg" style="width:100%">
+                </div></a>
+                <a href="index"><div class="col-xs-6" style="width:33%">
                     <img class="footer-icon" src="images/home.svg" style="width:100%">
                 </div></a>
-                <a href="favorite"><div class="col-xs-6" style="width:50%">
+                <a href="favorite"><div class="col-xs-6" style="width:33%">
                     <img class="footer-icon" src="images/heart.svg" style="width:100%">
                 </div></a>
             </div>

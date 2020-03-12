@@ -7,7 +7,7 @@ exports.view = function(req, res){
     res.render('workout', {
         'workouts': [
           { 
-            'Title': 'Workout Eggs',
+            'Title': 'Basic Scrambled Eggs',
             'Image': 'https://x9wsr1khhgk5pxnq1f1r8kye-wpengine.netdna-ssl.com/wp-content/uploads/Scrambled-with-Milk-930x620.jpg',
             'id': 2
           },

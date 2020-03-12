@@ -10,9 +10,24 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$('.meal a').click(addRecipeDetails);
+	$(":button").click(addFavorite);
 
 	// $('#colorBtn').click(randomizeColors);
 }
+
+function addFavorite(e) {
+	e.preventDefault();
+
+	var buttonID = $(this).attr("id");
+	var mealID = buttonID.substr('button-'.length);
+
+	console.log("favorite-btn clicked!")
+	console.log("id = " + mealID)
+
+	localStorage.setItem("favorite-"+mealID, "block");
+
+}
+
 
 /*
  * Make an AJAX call to retrieve meal details and add it in

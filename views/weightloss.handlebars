@@ -18,29 +18,23 @@
     </header>
     <hr>
     <div class="container">
-        <!--back button + heading-->
-        <div class="row">
-            <a href="index"><div class="col-xs-6" style="width: 25%">
-                <img class="thumbnail" src="images/back.svg" style="width:80%; max-width: 80px;">
-            </div></a>
-            <div class="col-xs-6">    
-                <h3 class="text-center">Weight Loss</h3>
-
-            </div>
-        </div>
+        <!--heading-->
+        <h3 class="text-center">Weight Loss</h3>
         <hr>
-         
-        {{#each weightlosses}}
-		<div class="meal" id="{{id}}">
-			<div class="thumbnail">
-				<a href="#">
-					<img src={{Image}} class="img-responsive" style="max-height: 200px; width:100%; height: 100%">
-                    <h3>{{Title}}</h3>
-				</a>
-                <div class="details"></div>
-			</div>
-		</div>
-		{{/each}}
+        <div class="mealcontainer" style="">
+            {{#each weightlosses}}
+    		<div class="meal" id="{{id}}">
+    			<div class="thumbnail">
+    				<a href="#">
+    					<img src={{Image}} class="img-responsive" style="max-height: 200px; width:100%; height: 100%">
+                        <h3>{{Title}}</h3>
+    				</a>
+                    <button id="button-{{id}}" type="button">Favorite</button>
+                    <div class="details"></div>
+    			</div>
+    		</div>
+    		{{/each}}
+        </div>
 
         
     </div>
@@ -51,10 +45,13 @@
     <!--Footer icons-->
     <footer class="container bar" id="fixedfooter">
             <div class="row">
-                <a href="index"><div class="col-xs-6" style="width:50%">
+                <a href="index"><div class="col-xs-6" style="width:33%">
+                    <img class="footer-icon" src="images/back.svg" style="width:100%">
+                </div></a>
+                <a href="index"><div class="col-xs-6" style="width:33%">
                     <img class="footer-icon" src="images/home.svg" style="width:100%">
                 </div></a>
-                <a href="favorite"><div class="col-xs-6" style="width:50%">
+                <a href="favorite"><div class="col-xs-6" style="width:33%">
                     <img class="footer-icon" src="images/heart.svg" style="width:100%">
                 </div></a>
             </div>
