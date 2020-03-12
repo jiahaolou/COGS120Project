@@ -20,22 +20,31 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$('.meal a').click(addRecipeDetails);
-	$(":button").click(addFavorite);
+	$(":button").click(removeFavorite);
 
 }
 
-function addFavorite(e) {
-	e.preventDefault();
-
+function removeFavorite() {
 	var buttonID = $(this).attr("id");
 	var mealID = buttonID.substr('button-'.length);
 
-	console.log("favorite-btn clicked!")
-	console.log("id = " + mealID)
+	$("#favorite-"+mealID).css("display", "none");
 
-	$("#favorite-"+mealID).css(display, "block");
 
 }
+
+// function addFavorite(e) {
+// 	e.preventDefault();
+
+// 	var buttonID = $(this).attr("id");
+// 	var mealID = buttonID.substr('button-'.length);
+
+// 	console.log("favorite-btn clicked!")
+// 	console.log("id = " + mealID)
+
+// 	$("#favorite-"+mealID).css("display", "block");
+
+// }
 
 
 /*
