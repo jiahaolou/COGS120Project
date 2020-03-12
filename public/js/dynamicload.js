@@ -3,6 +3,13 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
+	var i;
+	for (i = 0; i < 6; i++) {
+		var elemStyle = localStorage.getItem("favorite-"+i);
+		console.log(elemStyle);
+	  	$("#favorite-"+i).css("display", elemStyle);
+	}
+	console.log("ready!");
 })
 
 /*
@@ -10,8 +17,31 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$('.meal a').click(addRecipeDetails);
+	$(":button").click(addFavorite);
 
 	// $('#colorBtn').click(randomizeColors);
+}
+
+function addFavorite(e) {
+	e.preventDefault();
+
+	var buttonID = $(this).attr("id");
+	var mealID = buttonID.substr('button-'.length);
+
+	console.log("favorite-btn clicked!")
+	console.log("id = " + mealID)
+
+	localStorage.setItem("favorite-"+mealID, "block");
+
+	// $.get('./favorite', function(param){
+	// 	console.log("inside get");
+	// 	$("#favorite-"+mealID).css("display", "block");
+	// 	$("#title").css("display", "none");
+	// });
+
+	// document.getElementById("favorite-"+mealID).setAttribute("style","display:none");
+
+
 }
 
 /*

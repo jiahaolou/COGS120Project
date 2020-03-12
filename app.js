@@ -12,9 +12,9 @@ var index = require('./routes/index');
 var meal = require('./routes/meal');
 var weightlossmeal = require('./routes/weightlossmeal');
 var diy1meal = require('./routes/diy1meal');
+var favorite = require('./routes/favorite')
 
 var landing = require('./routes/landing');
-var favorite = require('./routes/favorite');
 var diy = require('./routes/diy');
 var diy1 = require('./routes/diy1');
 
@@ -54,6 +54,7 @@ app.get('/weightlossmeal/:id', weightlossmeal.weightlossmealInfo);
 app.get('/diy1meal/:id', diy1meal.diy1mealInfo);
 app.get('/', landing.view);
 app.get('/favorite', favorite.view);
+app.get('/favorite/:id', favorite.favoritemealInfo);
 app.get('/diy', diy.view);
 app.get('/diyAlt', diy.viewAlt);
 app.get('/diy1', diy1.view);
