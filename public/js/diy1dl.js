@@ -71,8 +71,8 @@ function getMeal(index, minTime, minCal, maxTime, maxCal) {
 		time = res.Time;
 		console.log("time " + time);
 		console.log("cals " + cals);
-		if ((time > maxTime) || (cals > maxCal) || (cals < minCal)) {
-			hideElement(index);
+		if ((time <= maxTime) && (cals <= maxCal) && (cals >= minCal)) {
+			unHideElement(index);
 		}
 		console.log("returning:  " + index+1);
 		return index+1;
@@ -82,6 +82,11 @@ function getMeal(index, minTime, minCal, maxTime, maxCal) {
 function hideElement(index) {
 	console.log("should be hiding " + index);
 	$("#diy-"+index).css("display", "none");
+}
+
+function unHideElement(index) {
+	console.log("should be hiding " + index);
+	$("#diy-"+index).css("display", "block");
 }
 
 
