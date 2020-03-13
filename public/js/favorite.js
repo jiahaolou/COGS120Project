@@ -59,16 +59,16 @@ function addRecipeDetails(e) {
 	// Get the div ID, e.g., "project3"
 	var mealID = $(this).closest('.meal').attr('id');
 	// get rid of 'project' from the front of the id 'project3'
-	// var idNumber = mealID.substr('meal'.length);
+	var idNumber = mealID.substr('favorite-'.length);
 
-	$.get("/favoritemeal/" + mealID, callBackFn);
+	$.get("/meal/" + idNumber, callBackFn);
 
-    console.log("User clicked on recipe " + mealID);
+    console.log("User clicked on recipe " + idNumber);
 }
 
 function callBackFn(result) {
 	console.log(result);
-	var selector = '#' + result.id + ' .details';
+	var selector = '#favorite-' + result.id + ' .details';
 	var mealHTML = '<p>Time: '+result.Time+' minutes</p>'+
         '<p>Calories: '+result.Calories+'</p>'+
         '<p>Protein: '+result.Protein+' grams</p>'+

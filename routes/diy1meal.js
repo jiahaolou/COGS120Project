@@ -1,4 +1,4 @@
-var diy1meals = require('../public/json/diy1meals.json');
+var diy1meals = require('../public/json/meals.json');
 
 exports.diy1mealInfo = function(request, response) {
 	var diy1mealID = request.params.id;

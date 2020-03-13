@@ -24,7 +24,7 @@
             </div>
         <hr>
         {{#each diy1s}}
-		<div  class="meal" id="{{id}}">
+		<div  class="meal" id="diy-{{id}}">
 			<div class="thumbnail">
 				<a href="#">
 					<img src={{Image}} class="img-responsive" style="max-height: 200px; width:100%; height: 100%">
@@ -36,6 +36,13 @@
 		</div>
 		{{/each}}
         
+        <!--Search Again Button-->
+        <div>    
+                <p class="text-center">Want to see different meals?</p>
+            </div>
+        <a href="#"><div class="container" style="text-align:center;">
+            <button type="button" class="btn" style="width:40%" id="searchagain">Search Again</button>
+        </div></a>
     </div>
     <br>
     <br>

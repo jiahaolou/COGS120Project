@@ -1,7 +1,18 @@
 [
 	{
 		"id": 1,
-		"Title": "Workout Eggs",
+		"Title": "Chicken with Ginger Pesto",
+		"Time": 15,
+		"Calories": 201,
+		"Protein": 22.6,
+		"Ingredients":"2 pounds skinless, boneless chicken breast halves, ½ cup dry white wine, ¼ cup vegetable oil, 2 tablespoons grated fresh ginger root, 2 cloves garlic, minced, 1 tablespoon salt, 1 teaspoon white sugar, 1 bunch green onions, cut into 1/4-inch pieces",
+		"Summary": "STEP 1: Pour the white wine into a saucepan of lightly salted water, and place the chicken breasts into the pan. Bring the pan to a boil, reduce the heat, and simmer the chicken until cooked through and white, 8 to 10 minutes. Remove from the heat, and let the chicken cool in the broth. Remove from the broth, and set the chicken aside. STEP 2: Heat the vegetable oil in a skillet over medium-low heat, and stir in the ginger, garlic, salt, and sugar. Reduce heat to low, and cook, stirring occasionally, until the garlic is browned and soft, and the oil is flavored, about 20 minutes. Stir in the green onions, and cook for another 10 minutes, stirring occasionally, until the white parts of the onions are soft. STEP 3: Slice the poached chicken breasts on the bias into slices about 1 inch wide, and arrange attractively on a plate. Spoon the green onion mixture over the chicken breasts, and serve.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F718232.jpg&w=596&h=596&c=sc&poi=face&q=85"
+
+	},
+	{
+		"id": 2,
+		"Title": "Basic Scrambled Eggs",
 		"Time": 5,
 		"Calories": 392,
 		"Protein": 14,
@@ -10,7 +21,27 @@
 		"Image": "https://x9wsr1khhgk5pxnq1f1r8kye-wpengine.netdna-ssl.com/wp-content/uploads/Scrambled-with-Milk-930x620.jpg"
 	},
 	{
-		"id": 2,
+		"id": 3,
+		"Title": "Kadai Chicken",
+		"Time": 35,
+		"Calories": 339,
+		"Protein": 29.3,
+		"Ingredients":"5 teaspoons vegetable oil, 7 dried red chile peppers, finely chopped , 5 tomatoes, finely chopped, 4 boneless chicken breasts, cut into bite-size pieces",
+		"Summary": "Heat oil in a large skillet over medium heat. Add chile peppers; cook and stir until browned, about 1 minute. Add tomatoes; cook and stir until softened and reduced, about 7 minutes. Stir in chicken; cook and stir until it is dark red and sauce thickens and starts to stick to the pan, 10 to 15 minutes.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3531190.jpg&w=596&h=596&c=sc&poi=face&q=85"
+	},
+	{
+		"id": 4,
+		"Title": "Roasted Salmon with Kale-Quinoa Salad",
+		"Time": 15,
+		"Calories": 453,
+		"Protein": 43,
+		"Ingredients":"1 (6-oz.) wild salmon fillet, Cooking spray, 1 teaspoon olive oil, 1/8 teaspoon salt, 1/8 teaspoon freshly ground black pepper, 1 1/2 cups thinly sliced lacinato kale, 1/2 cup cooked quinoa, 1 tablespoon All-Purpose Citrus Dressing",
+		"Summary": "STEP 1: Preheat oven to 425°F. STEP 2: Place salmon on a foil-lined baking sheet coated with cooking spray. Rub evenly with oil, salt, and pepper. Bake at 425°F for 10 minutes or until fish flakes easily when tested with a fork. STEP 3: While fish cooks, combine kale, quinoa, All-Purpose Citrus Dressing, and grapes in a bowl; toss to combine. Let stand 5 minutes. Top with salmon.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Froasted-salmon-kale-quinoa-salad.jpg"
+	},
+	{
+		"id": 5,
 		"Title": "Beef Pepper Steak",
 		"Time": 20,
 		"Calories": 350,
@@ -20,7 +51,7 @@
 		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/beef-pepper-steak-2.jpg"
 	},
 	{
-		"id": 3,
+		"id": 6,
 		"Title": "Caribbean Rice And Beans With Shrimp",
 		"Time": 35,
 		"Calories": 404,
@@ -30,7 +61,7 @@
 		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/caribbean-rice-beans-shrimp-3.jpg"
 	},
 	{
-		"id": 4,
+		"id": 7,
 		"Title": "Smoked Salmon Brown Rice Bowl",
 		"Time": 10,
 		"Calories": 532,
@@ -40,7 +71,7 @@
 		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/DSC06516-5.jpg"
 	},
 	{
-		"id": 5,
+		"id": 8,
 		"Title": "Yogurt Chicken Kebabs",
 		"Time": 120,
 		"Calories": 238,
@@ -48,5 +79,25 @@
 		"Ingredients": "1 1/4 lb chicken breast, cut into 1-inch chunks. Marinade: 3/4 cup plain yogurt (I used YQ plain), 2 teaspoons lemon zest, juice from 1 lemon, 1 teaspoon smoked paprika, 1/2 teaspoon cayenne, 1/2 teaspoon turmeric (optional), 2 tablespoons olive oil, 1 tablespoon minced garlic",
 		"Summary": "Mix together the ingredients for a marinade in a bowl.  Place the chicken breast in a sealable plastic bag then pour in the marinade.  Squeeze out all the air from the bag and seal it closed.  Mix and mash the bag to completely cover every piece of chicken. Marinate in the fridge for at least 1 hour but for best results, marinate overnight. After marinating, assemble the kabobs.  Set oven to 420F.  Evenly divide the kabob pieces into 5 separate wooden skewers. Discard the leftover marinade from the chicken. Place the kabobs on a baking rack or baking sheet lined with parchment paper. Bake in the oven for 15 to 18 minutes, until the outside edges are brown and the chicken is cooked through. Garnish with fresh cilantro or chives and enjoy with your choice of side for meal prep.  I suggest a fragrant jasmine or basmati rice and steamed veggies.",
 		"Image": "https://369t7u43n93dgc5pt43uc681-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/yoplait-yogurt-recipes-6.jpg"
+	},
+	{
+		"id": 9,
+		"Title": "Roasted Salmon with Kale-Quinoa Salad",
+		"Time": 15,
+		"Calories": 453,
+		"Protein": 43,
+		"Ingredients":"1 (6-oz.) wild salmon fillet, Cooking spray, 1 teaspoon olive oil, 1/8 teaspoon salt, 1/8 teaspoon freshly ground black pepper, 1 1/2 cups thinly sliced lacinato kale, 1/2 cup cooked quinoa, 1 tablespoon All-Purpose Citrus Dressing",
+		"Summary": "STEP 1: Preheat oven to 425°F. STEP 2: Place salmon on a foil-lined baking sheet coated with cooking spray. Rub evenly with oil, salt, and pepper. Bake at 425°F for 10 minutes or until fish flakes easily when tested with a fork. STEP 3: While fish cooks, combine kale, quinoa, All-Purpose Citrus Dressing, and grapes in a bowl; toss to combine. Let stand 5 minutes. Top with salmon.",
+		"Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Froasted-salmon-kale-quinoa-salad.jpg"
+	},
+	{
+		"id": 10,
+		"Title": "Protein Packed Vegan Breakfast Burrito",
+		"Time": 20,
+		"Calories": 404,
+		"Protein": 30,
+		"Ingredients":"½ medium red onion (chopped), 2 garlic cloves (minced), 12 oz extra firm tofu (pressed, see notes), 1 Tbsp olive oil, ¼ tsp turmeric, ¼ tsp cumin, Sea salt & pepper to taste, ½ cup black beans, ½ avocado (chopped into small pieces), ⅓ cup salsa of choice (I used pico de gallo), 2 large whole wheat tortillas",
+		"Summary": "STEP 1: Place a medium sized skillet over medium heat and add your oil. Once heated add your onions & season with s&p. Cook until cooked down & starting to lightly brown (about 4-5 minutes). Add your garlic & cook (stirring constantly) for another minute. STEP 2: Add in your tofu (crumble it with your hands, see picture). Add in turmeric, cumin and another pinch of sea salt & pepper. Stir until fully combined. Remove from heat. STEP 3: To assemble your burritos line up all your ingredients (leaving room on all sides, see photo) & roll up! Enjoy! STEP 4: Feel free to freeze these, just place in a sealed plastic bag.",
+		"Image": "http://www.nutritionalfoodie.com/wp-content/uploads/2017/01/protein-packed-vegan-breakfast-burrito-4.jpg"
 	}
 ]
